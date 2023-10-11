@@ -46,7 +46,25 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- jQuery -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>jquery</artifactId>
+			<version>3.6.4</version> <!-- Versão mais recente -->
+		</dependency>
+
+		<!-- Bootstrap -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>5.3.0</version> <!-- Versão mais recente -->
+		</dependency>
+
 	</dependencies>
+	<repository>
+    	<id>webjars</id>
+    	<url>https://repo.webjars.org</url>
+	</repository>
 
 	<build>
 		<plugins>
